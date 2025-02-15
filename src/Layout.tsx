@@ -27,7 +27,7 @@ export const Layout = ({ children }: LayoutProps) => {
 
   return (
     <div className="flex gap-8 min-h-screen bg-[#F1F1F1]">
-      <aside className="w-[248px] h-screen bg-white">
+      <aside className="w-[248px] max-h-full bg-white">
         <div className="ml-[29px] my-[52px]">
           <BrandLogo />
         </div>
@@ -38,7 +38,7 @@ export const Layout = ({ children }: LayoutProps) => {
           <NavLink to="/books" icon={<BooksIcon />} title="Books" />
         </nav>
       </aside>
-      <main className="flex-1 me-8">
+      <main className="flex-1 me-8 mb-[39px]">
         <header className="h-[92px] mt-[48px] mb-[40px] border-b border-[#B0B0B0]">
           <div className="flex justify-between items-center h-full">
             <div className="flex flex-col">

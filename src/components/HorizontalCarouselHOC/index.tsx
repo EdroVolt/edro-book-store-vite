@@ -13,7 +13,7 @@ type HorizontalCarouselHOCProps = {
 
 export default function HorizontalCarouselHOC({
   children,
-  numberOfSlides = 4,
+  numberOfSlides = 3,
   options,
   title,
 }: HorizontalCarouselHOCProps) {
@@ -40,11 +40,11 @@ export default function HorizontalCarouselHOC({
         } as React.CSSProperties
       }
     >
-      <div className="flex mb-8">
-        {title ? (
+      {title ? (
+        <div className="flex mb-8">
           <span className="text-[26px] font-semibold">{title}</span>
-        ) : null}
-      </div>
+        </div>
+      ) : null}
 
       <div className={styles["embla__viewport"]} ref={emblaRef}>
         <div className={styles["embla__container"]}>{slides}</div>

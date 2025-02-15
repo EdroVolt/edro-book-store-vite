@@ -1,10 +1,10 @@
 .embla {
-  --slide-height: 19rem;
-  --slide-spacing: 1rem;
+  --slide-height: 214px;
+  --slide-spacing: 24px;
   --slide-size: 100%;
-  --slide-spacing-sm: 1.6rem;
+  --slide-spacing-sm: 18px;
   --slide-size-sm: 50%;
-  --slide-spacing-lg: 1.9rem;
+  --slide-spacing-lg: 24px;
   --slide-size-lg: calc(100% / 4);
   --detail-high-contrast: rgb(192, 192, 192);
   --detail-medium-contrast: rgb(234, 234, 234);
