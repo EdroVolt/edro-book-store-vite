@@ -39,7 +39,7 @@ export const Layout = ({ children }: LayoutProps) => {
         </nav>
       </aside>
       <main className="flex-1 me-8">
-        <header className="h-[92px] mt-[48px] border-b border-[#B0B0B0]">
+        <header className="h-[92px] mt-[48px] mb-[40px] border-b border-[#B0B0B0]">
           <div className="flex justify-between items-center h-full">
             <div className="flex flex-col">
               <h1 className="text-2xl font-semibold">{currentPage}</h1>
